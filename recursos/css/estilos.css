@@ -1,0 +1,225 @@
+.navbar-rounded-bottom {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+}
+
+.navbar-custom {
+    background-color: #000000cf;
+    overflow: hidden;
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px); 
+    position: fixed; 
+    z-index: 1000; 
+}
+
+
+
+.table-custom {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-custom thead {
+    border-bottom: 2px solid black;
+}
+
+.table-custom th,
+.table-custom td {
+    border-color: black !important;
+}
+
+
+.table-custom td.d-flex {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    }
+
+.table-custom td img {
+    width: 40%;
+    max-width: 40px;
+    }
+
+.table-custom td {
+    padding: 0.5rem; 
+    }
+
+.table-custom th:nth-child(2),
+.table-custom td:nth-child(2) {
+    width: 150px; 
+    text-align: center; 
+    }
+
+.rounded-circle {
+    transition: transform 0.3s ease;
+}
+
+.rounded-circle:hover {
+    transform: scale(1.2); 
+}
+
+.equi{
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,29,55,1) 100%);
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.pts{
+    font-weight: bold;
+}
+
+.fech:hover{
+    background-color: #d1d1ff;
+    border-radius: 30px; 
+}
+
+.modal-content {
+    position: relative;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid white;
+    overflow: hidden; 
+}
+
+.modal-content {
+    position: relative;
+    background: #010821ab;
+    border-radius: 15px;
+    border: 2px solid white;
+    overflow: hidden;
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px); 
+    color: #fff;
+}
+
+
+.modal-content > * {
+    position: relative;
+    z-index: 2; 
+}
+
+.goleadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goleadores span {
+    display: block;
+    margin: 2px 0;
+}
+
+
+.tarjetas::before {
+    content: '🏳️ ';
+
+}
+
+.tama{
+    color: #000;
+}
+
+.goles{
+    font-size: 1em; 
+}
+
+.goles::before {
+    content: '⚽ ';
+
+}
+
+.badge {
+    font-size: 0.8em; 
+    padding: 0.5em 0.75em;
+}
+
+
+
+body {
+    padding-top: 40px;
+    background: rgb(0,0,4);
+    background: linear-gradient(0deg, rgba(0,0,4,1) 0%, rgba(0,33,96,1) 29%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+footer {
+    background-color: #000; 
+    color: #ffffff;
+    text-align: center; 
+    padding: 15px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; 
+    border-top: 2px solid #ffffff; 
+}
+
+footer h5 {
+    margin: 0; 
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 12px; 
+        padding: 10px;
+    }
+}
+
+h1{
+    font-family: "Fugaz One", sans-serif;
+    margin-top: 8px;
+    line-height: 1.2;
+}
+
+h2{
+    font-family: "Fugaz One", sans-serif;
+    margin-top: 8px;
+    line-height: 1.2;
+}
+
+#posiciones {
+    background-color: white;
+    border-color: black !important;
+    border-radius: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#equipos {
+    background-color: white;
+    border-color: black !important;
+    border-radius: 30px;
+}
+
+#equipos .img-fluid {
+    max-width: 100%; /* Asegura que las imágenes no se salgan de su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+#equipos .col-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; /* Espacio entre filas en vista móvil */
+}
+
+
+#fechas {
+    background-color: white;
+    border-color: black !important;
+    border-radius: 30px;
+}
+
+#resultados {
+    background-color: white;
+    border-color: black !important;
+    border-radius: 30px;
+}
+
+
