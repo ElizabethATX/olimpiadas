@@ -12,7 +12,16 @@
     z-index: 1000; 
 }
 
+.table-stats {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+.table-titulos{
+    --bs-table-bg: #3addbf;
+    --bs-table-color: #000;
+}
 
 .table-custom {
     border: 2px solid black;
@@ -124,7 +133,7 @@
 }
 
 .goles{
-    font-size: 1em; 
+    font-size: 40em; 
 }
 
 .goles::before {
@@ -141,8 +150,13 @@
 
 body {
     padding-top: 40px;
+    /*
     background: rgb(0,0,4);
     background: linear-gradient(0deg, rgba(0,0,4,1) 0%, rgba(0,33,96,1) 29%);
+    Color de fondo principal 002160 
+    */
+    background: rgb(41,2,125);
+    background: linear-gradient(0deg, rgba(41,2,125,1) 0%, rgba(0,33,96,1) 18%, rgba(0,33,96,1) 88%, rgba(41,2,125,1) 96%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
