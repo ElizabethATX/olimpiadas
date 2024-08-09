@@ -199,14 +199,14 @@ h2{
 }
 
 #equipos .img-fluid {
-    max-width: 100%; /* Asegura que las imágenes no se salgan de su contenedor */
-    height: auto; /* Mantiene la proporción de aspecto */
+    max-width: 100%; 
+    height: auto; 
 }
 
 #equipos .col-2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px; /* Espacio entre filas en vista móvil */
+    margin-bottom: 15px; 
 }
 
 
